@@ -104,13 +104,31 @@ function division(a, b) {
 }
 
 //Ejercicio 21
+function esPar(numero) {
+  return numero % 2 === 0;
+}
 
 //Ejercicio 22
+function resta(a, b) {
+  return a - b;
+}
 
 //Ejercicio 23
+function ordenarArray2(array) {
+  return array.sort((a, b) => b - a);
+}
 
 //Ejercicio 24
+function obtenerImpares(array) {
+  return array.filter((num) => num % 2 !== 0);
+}
 
 //Ejercicio 25
+function sumarArray(array) {
+  array.reduce((acumulado, num) => acumulado + num, 0);
+}
 
 //Ejercicio 26
+function multiplicarArray(array) {
+  return array.reduce((acumulado, num) => acumulado * num, 1);
+}
