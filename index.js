@@ -65,20 +65,43 @@ function pintarArray(array) {
 }
 
 //Ejercicio 13
+function arrayMapi(array, funcion) {
+  return array.map(funcion);
+}
 
 //Ejercicio 14
+function eliminarDuplicados(array) {
+  return [...new Set(array)];
+}
 
 //Ejercicio 15
+let arrayNumerosNeg = [0, -1, -2, -3, -4, -5, -6, -7, -8, -9];
 
 //Ejercicio 16
+let holaMundo = ["Hola", "Mundo"];
 
 //Ejercicio 17
+let loGuardoTodo = ["hola", "que", 23, 42.33, "tal"];
 
 //Ejercicio 18
+let arrayDeArrays = [
+  [756, "nombre"],
+  [225, "apellido"],
+  [298, "direccion"],
+];
 
 //Ejercicio 19
+function multiplicacion(a, b) {
+  return a * b;
+}
 
 //Ejercicio 20
+function division(a, b) {
+  if (b === 0) {
+    return "Error: División por cero";
+  }
+  return a / b;
+}
 
 //Ejercicio 21
 
